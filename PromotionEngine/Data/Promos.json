@@ -1,0 +1,28 @@
+{
+  "promos": [
+    {
+      "RuleType": "FixedPriceDiscount",
+      "SKU": [ "A" ],
+      "Quantity": 3,
+      "Price": 130,
+      "StartDate": "1/1/2022",
+      "EndDate": "12/31/2022"
+    },
+    {
+      "RuleType": "FixedPriceDiscount",
+      "SKU": [ "B" ],
+      "Quantity": 2,
+      "Price": 45,
+      "StartDate": "1/1/2022",
+      "EndDate": "12/31/2022"
+    },
+    {
+      "RuleType": "MultiSkuDiscount",
+      "SKU": [ "C", "D" ],
+      "Quantity": 1,
+      "Price": 30,
+      "StartDate": "1/1/2022",
+      "EndDate": "12/31/2022"
+    }
+  ]
+}
